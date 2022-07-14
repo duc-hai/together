@@ -1,5 +1,5 @@
 const yourDate = new Date("2022-07-13T00:00:00"),
-music = ['ido', 'noinaycoanh', 'nguoiamphu', 'trasua', 'cochacyeuladay'];
+music = ['noinaycoanh', 'nguoiamphu', 'trasua', 'cochacyeuladay', 'muonroimasaocon'];
 
 document.addEventListener('DOMContentLoaded', function(){
       var rootTime = document.querySelector("time");
