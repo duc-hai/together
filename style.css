@@ -76,14 +76,43 @@ time {
       grid-column: span 2;
       display: grid;
       grid-template-rows: 2;
-      font-size: 44px;
-      color: #b90d46;
+      font-size: 50px;
+      /* font-size: 44px; */
+      color: red;
       align-self: center;
       padding-bottom: 2.6rem;
       text-align: center;
 }
 
+#tym {
+      animation: heartbeat 1s infinite;
+}
+@keyframes heartbeat
+{
+      0%
+      {
+        transform: scale(1)
+          /* rotate(-45deg);     */
+      }
+      20%
+      {
+        transform: scale(1.25)
+          /* rotate(-45deg);   */
+      }
+      40%
+      {
+        transform: scale( 1.5 )
+          /* rotate(-45deg); */
+      }
+}  
+
 anni {
+      font-weight: bold;
+      margin-top: 10px;
+      color: #b90d46;
+      /* color: black;
+      color: #F5B041;
+      color: #E67E22; */
       font-size: 16px;
       letter-spacing: 0.2px;
 }
@@ -118,6 +147,8 @@ footer {
       opacity: .42;
       width: 100vw;
       height: 100vh;
+      /* width: 100rem;
+      height: 100rem; */
       position: fixed;
       top: 0;
       left: 0;
